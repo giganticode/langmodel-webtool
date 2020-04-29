@@ -9,8 +9,8 @@ let lastPredictionInput = localStorage.getItem('lastPredictionInput') || "public
 let lastSearchInput = localStorage.getItem('lastSearchInput') || "public class Test {\n    public static void main(String[] args) {\n\n    }\n}";
 
 // selected models
-let currentModel = localStorage.getItem('currentModel') || 'langmodel-large-split_10k_1_512_190926.120146';
-let currentModel2 = localStorage.getItem('currentModel2') || 'langmodel-large-split_10k_1_512_190926.120146';
+let currentModel = localStorage.getItem('currentModel') || 'langmodel-large-split_10k_1_512_190926.120146_new';
+let currentModel2 = localStorage.getItem('currentModel2') || 'langmodel-large-split_10k_1_512_190926.120146_new';
 
 // tokenTypes and metrics
 let tokenTypesJson = localStorage.getItem('tokenTypesJson') || `["all", "only_comments", "all_but_comments"]`;
